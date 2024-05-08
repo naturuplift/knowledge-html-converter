@@ -1,0 +1,84 @@
+[
+  {
+    "type": "Table",
+    "table": {
+      "rows": [
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "id"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell",
+                "width": 34.375
+              }
+            },
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "name"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell",
+                "width": 34.375
+              }
+            }
+          ],
+          "properties": {
+            "rowType": "Body"
+          }
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "1"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell",
+                "width": 34.375
+              }
+            },
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "test"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell",
+                "width": 34.375
+              }
+            }
+          ],
+          "properties": {
+            "rowType": "Body"
+          }
+        }
+      ],
+      "properties": {
+        "width": 68.75,
+        "borderColor": "#FFFFFF",
+        "borderWidth": 0.375
+      }
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "Paragraph",
+    "paragraph": {
+      "blocks": [
+        {
+          "type": "Text",
+          "text": {
+            "text": "Test text",
+            "properties": {
+              "fontSize": "XLarge",
+              "textColor": "#ff4500",
+              "backgroundColor": "#fbeeb8"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "fontType": "Paragraph",
+        "indentation": 2
+      }
+    }
+  }
+]

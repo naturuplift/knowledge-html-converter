@@ -1,0 +1,69 @@
+{
+  "name": "knowledge-html-converter",
+  "version": "0.3.3",
+  "description": "Converts html to the json format of genesys knowledge article content.",
+  "author": "Genesys Cloud Services, Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyPureCloud/knowledge-html-converter.git"
+  },
+  "type": "module",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "compile": "tsc --declaration",
+    "test": "mocha",
+    "test-jenkins": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./reports/test-result.xml",
+    "coverage": "nyc npm run test",
+    "coverage-jenkins": "nyc --reporter cobertura npm run test-jenkins",
+    "lint": "eslint '**/*.ts'",
+    "prettier-check": "prettier . --check",
+    "prettier-write": "prettier . --write",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.ts": "eslint .",
+    "*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "html-parse-stringify": "3.0.1",
+    "sanitize-html": "2.12.1",
+    "tinycolor2": "1.6.0"
+  },
+  "devDependencies": {
+    "@istanbuljs/esm-loader-hook": "0.2.0",
+    "@istanbuljs/nyc-config-typescript": "1.0.2",
+    "@types/chai": "4.3.11",
+    "@types/mocha": "10.0.6",
+    "@types/node": "16.18.41",
+    "@types/sanitize-html": "2.9.5",
+    "@types/tinycolor2": "1.4.6",
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0",
+    "chai": "4.4.1",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.2.0",
+    "mocha": "10.2.0",
+    "mocha-junit-reporter": "2.2.1",
+    "nyc": "15.1.0",
+    "prettier": "3.2.2",
+    "rimraf": "5.0.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}

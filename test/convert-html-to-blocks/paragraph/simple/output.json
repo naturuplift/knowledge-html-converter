@@ -1,0 +1,18 @@
+[
+  {
+    "paragraph": {
+      "blocks": [
+        {
+          "text": {
+            "text": "This is a paragraph"
+          },
+          "type": "Text"
+        }
+      ],
+      "properties": {
+        "fontType": "Paragraph"
+      }
+    },
+    "type": "Paragraph"
+  }
+]

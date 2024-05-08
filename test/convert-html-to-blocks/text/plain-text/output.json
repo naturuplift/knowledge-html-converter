@@ -1,0 +1,18 @@
+[
+  {
+    "paragraph": {
+      "blocks": [
+        {
+          "text": {
+            "text": "just text without block tags"
+          },
+          "type": "Text"
+        }
+      ],
+      "properties": {
+        "fontType": "Paragraph"
+      }
+    },
+    "type": "Paragraph"
+  }
+]

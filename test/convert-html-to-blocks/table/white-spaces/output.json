@@ -1,0 +1,94 @@
+[
+  {
+    "type": "Table",
+    "table": {
+      "rows": [
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "id"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell"
+              }
+            },
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "name"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell"
+              }
+            }
+          ],
+          "properties": {
+            "rowType": "Body"
+          }
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "1"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell"
+              }
+            },
+            {
+              "blocks": [
+                {
+                  "type": "Text",
+                  "text": {
+                    "text": "test name test"
+                  }
+                }
+              ],
+              "properties": {
+                "cellType": "Cell"
+              }
+            }
+          ],
+          "properties": {
+            "rowType": "Body"
+          }
+        }
+      ],
+      "properties": {
+        "caption": {
+          "blocks": [
+            {
+              "type": "Text",
+              "text": {
+                "text": "Strong ",
+                "marks": ["Bold"]
+              }
+            },
+            {
+              "type": "Text",
+              "text": {
+                "text": "caption"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]
